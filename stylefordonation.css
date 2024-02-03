@@ -1,0 +1,31 @@
+header {
+  position: fixed;
+  z-index: 999;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: #eee;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-around;
+}
+
+.main-nav {
+  display: flex;
+  text-align: center;
+  font-size: 25px;
+  list-style: none;
+}
+
+.main-nav li {
+  margin-left: 25px;
+}
+
+.main-nav a {
+  color: cadetblue;
+}
+
+main {
+  padding: 50px;
+  margin: 100px;
+}
